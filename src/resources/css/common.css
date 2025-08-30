@@ -1,51 +1,16 @@
-/* フォントやリセット */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #333;
+.header {
+    background: #000;
 }
 
-/* ボタン共通 */
-button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
 }
 
-/* 青ボタン */
-.btn-blue {
-    background-color: #007bff;
+.header__logo {
     color: #fff;
-}
-
-/* 赤ボタン */
-.btn-red {
-    background-color: #dc3545;
-    color: #fff;
-}
-
-/* 黒ボタン */
-.btn-black {
-    background-color: #000;
-    color: #fff;
-}
-
-/* テーブル共通 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    padding: 8px 12px;
-    text-align: left;
-}
-
-tr+tr {
-    border-top: 1px solid #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
 }
